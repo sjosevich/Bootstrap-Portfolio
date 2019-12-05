@@ -1,102 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Bootstrap Portfolio</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Bootstrap Theme</title>
 </head>
+
 <body>
-
-    <!--Nav Section-->
-
-    
-        
-    <nav class="navbar  navbar-light bg-white p-0">
-            
-                <h1 class="text-white  ml-5 mb-0 px-3 py-3" style="background-color: #4aaaa5">Serguei Rodriguez</h1>
-            
-                <ul class="nav nav-pills px-5 mx-4">
-                                    
-                        <li class="nav-item ">
-                            <a class="nav-link text-secondary font-weight-bold" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item align-middle pt-2">
-                                            |
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary font-weight-bold" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item align-middle pt-2">
-                                            |
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary font-weight-bold" href="contact.html">Contact</a>
-                        </li>
-                </ul>
-            
-                        
-    </nav>
-
-        
-        
-
-    <!--Header Section-->
-    
-     <header class="bg-secondary mx-5 pb-5 pt-2 border-top-2" style="background-image:linear-gradient(rgba(190, 178, 178, 0.3), rgba(190, 178, 178, 0.3)); border-top: 2px solid #777777">
-         <div class="p-5" id="top-header">
-             <div class="container">
-                 <div class="row bg-white mx-5">
-                     <div class="col-md-12 col-sm-12 text-left">
-                         <h1 class="display-5" style="color: #4aaaa5">About me</h1>
-                         <hr>
-                     </div>
-                 </div>
-                 <div class="row bg-white mx-5">
-                    <div class="col-md-2  col-sm-12 text-left">
-                            <img src="./assets/images/me.JPG" alt="Photo" class="img-thumbnail" width="200px" height="300px" >
-                    </div>
-                    <div class="col-md-10  col-sm-12 text-left">
-                        <p class="mr-2 font-weight-bolder" style="color: #4aaaa5">
-                            As a recent graduate from Pima Community College in Computer Networking Management, 
-                            I am excited to begin my carrer in the field of storage support. 
-                            While I have been working I encoutured the necesity of getting other skills such as programing 
-                            and web designing. I started the UA programing Bootcamp course and I am looking forward to 
-                            acquire new knowloage in order to put them in use. I am excited to continue developing my 
-                            skills and gaining valuable experiences as a web development beginner.
-                        </p> 
-                    </div>
+  <div class="container">
+    <header id="main-header">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-5">
+          <img src="./assets/images/me.JPG" alt="" >
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="d-flex flex-column">
+            <div class="p-5 bg-dark text-white">
+              <div class="d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display-4">Serguei J Rodriguez</h1>
+                <div class="d-none d-md-block">
+                  <a href="http://twitter.com" class="text-white">
+                    <i class="fab fa-twitter"></i>
+                  </a>
                 </div>
-                <div class="row bg-white mx-5 pt-2">
-                    <div class="col-md-12 col-sm-12">
-                        <p class="mr-1 font-weight-bolder" style="color: #4aaaa5">
-                                Please visit my Portfolio page for a closer look at the professional work and learn more about me. 
-                                And if you are interested in reaching me out, I'd love to connect.
-                        </p> 
-                    </div>
+                <div>
+                  <a href="http://facebook.com" class="text-white">
+                    <i class="fab fa-facebook"></i>
+                  </a>
                 </div>
-             </div>
-         </div>
-     </header>   
+                <div>
+                  <a href="http://instagram.com" class="text-white">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="http://github.com" class="text-white">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-    <!--Footer Section--> 
-    <footer class="card-footer bg-secondary footer-font-style text-muted footer-position mx-5 text-center py-4" style="border-top: 4px solid #4aaaa5">
-            <small class="text-white"> Copyright &copy;</small>
+            <div class="p-4 bg-black">
+              Junior Full Stack Web Developer
+            </div>
+
+            <div>
+              <div class="d-flex flex-row text-white align-items-stretch text-center">
+                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                  <i class="fas fa-home fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Home</span>
+                </div>
+                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                  <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Resume</span>
+                </div>
+                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                  <i class="fas fa-folder-open fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Work</span>
+                </div>
+                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                  <i class="fas fa-envelope fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Contact</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <div id="home" class="collapse show">
+      <div class="card card-body bg-primary text-white py-5">
+        <h2>Welcome To My Page</h2>
+        <p class="lead">As a recent graduate from Pima Community College in Computer Networking Management, 
+            I am excited to begin my carrer in the field of storage support. 
+            While I have been working I encoutured the necesity of getting other skills such as programing 
+            and web designing. I started the UA programing Bootcamp course and I am looking forward to 
+            acquire new knowloage in order to put them in use. I am excited to continue developing my 
+            skills and gaining valuable experiences as a web development beginner. 
+
+            
+        </p>
+
+           
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>My Skills</h3>
+        <p>As a student of the UA Bootcamp I'm getting new skills in order to become a Full Stack Developer.</p>
+        <hr>
+        <h4>HTML 5</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>CSS 3</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>Github</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:95%"></div>
+        </div>
+        <h4>JavaScript</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:95%"></div>
+        </div>
+        <h4>API</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:90%"></div>
+        </div>
+        <h4>Node</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:20%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESUME -->
+    <div id="resume" class="collapse">
+      <div class="card card-body bg-success text-white py-5">
+        <h2>My Resume</h2>
+        <p class="lead">Around two month of experience in Java Script, UI technologies, have been working on
+            design and development and implementation of UA Bootcam projects
+        </p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>Where Have I Worked?</h3>
+        <p>Experience as an IT professional, and currently I'm a sudent of the UA Bootcamp</p>
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">ICRT</h4>
+              <p class="card-text">Designing and implementing functional and cost-efficient IT systems</p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Position: Computer Network Analyst
+              </p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Phone: (444) 444-4444
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: 2004 - 2014</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">EMR Group</h4>
+              <p class="card-text">Monitoring large computer networks and servers for problems from a central location</p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Position: Noc Operator
+              </p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Phone: (222) 222-2222
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: 2016 - 2017</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">IBM</h4>
+              <p class="card-text">Monitoring systems operations to ensure servers, hard drives, and other data center equipment function efficiently</p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Position: RCL Enginner
+              </p>
+              <p class="p-2 mb-3 bg-dark text-white">
+                Phone: (333) 333-3333
+              </p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: 2018 - present</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <div id="work" class="collapse">
+      <div class="card card-body bg-warning text-white py-5">
+        <h2>My Work</h2>
+        <p class="lead">During this period in the UA Bootcamp, I have been able to see the basic aspects related to the tools and skills that a Full Stack Developer must have. I have also been able to apply some of this knowledge in tasks and projects assigned in this course.</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>What Have I Built?</h3>
+        <p>Below I show you some of the tasks and projects that I have developed during these two months.</p>
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/Psychic-Game/index.html" data-toggle="lightbox">
+              <img src="./assets/images/word.jpg" alt="Word Game" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/Word-Guess-Game/index.html" >
+              <img src="./assets/images/word-guess.png" alt="Word guess game" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/unit-4-game/index.html" >
+              <img src="./assets/images/cristal-collectors.jpg" alt="Colector" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/GifTastic/index.html" data-toggle="lightbox">
+              <img src="./assets/images/giftastic.jpg" alt="GifTastic" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/TriviaGame/index.html" data-toggle="lightbox">
+              <img src="./assets/images/trivia.jpg" alt="Trivia" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/AdvancedTriviaGame/index.html" data-toggle="lightbox">
+              <img src="./assets/images/trivia2.jpg" alt="Advanced Trivia game" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://sjosevich.github.io/trainScheduler/index.html" >
+              <img src="./assets/images/train_schedule.jpg" alt="train schedule" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://kbuchanan032.github.io/Project-1/index.html" >
+              <img src="./assets/images/iamBord.png" alt="Project1" width="260px" height="150px" class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="collapse">
+      <div class="card card-body bg-danger text-white py-5">
+        <h2>Contact</h2>
+        <p class="lead">Please visit my Portfolio page for a closer look at the professional work and learn more about me. 
+            And if you are interested in reaching me out, I'd love to connect.</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>Get In Touch</h3>
+        <p>I would love to heare from you.</p>
+        <form>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea class="form-control bg-dark text-white" placeholder="Name"></textarea>
+            </div>
+          </div>
+
+          <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+        </form>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-5 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="Profile.pdf" class="btn btn-outline-light">
+            <i class="fas fa-cloud"></i> Download Resume
+          </a>
+        </div>
+      </div>
     </footer>
+  </div>
 
 
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-    <script
-			  src="http://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+  <script>
+    $('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
 </body>
+
 </html>
